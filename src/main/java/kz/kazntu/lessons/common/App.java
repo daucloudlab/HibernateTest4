@@ -12,10 +12,12 @@ public class App {
         session.beginTransaction();
         Stock stock = new Stock();
 
-        stock.setStockCode("4715");
-        stock.setStockName("GENM");
+        stock.setStockCode("4718");
+        stock.setStockName("GOOG");
 
         session.save(stock);
         session.getTransaction().commit();
+
+        HibernateUtil.shutdown();
     }
 }
