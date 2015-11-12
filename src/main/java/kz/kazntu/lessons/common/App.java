@@ -1,5 +1,7 @@
 package kz.kazntu.lessons.common;
 
+// http://www.mkyong.com/hibernate/maven-hibernate-annonation-mysql-example/
+
 import kz.kazntu.lessons.utils.HibernateUtil;
 import org.hibernate.Session;
 
